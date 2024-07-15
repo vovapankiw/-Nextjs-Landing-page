@@ -1,3 +1,4 @@
+import HeroBlock from '@/components/HeroBlock';
 import Navigation from '@/components/Navigation';
 
 export default function page() {
@@ -6,7 +7,9 @@ export default function page() {
       <nav>
         <Navigation />
       </nav>
-      <main>Main content</main>
+      <main>
+        <HeroBlock />
+      </main>
       <footer>Footer</footer>
     </>
   );
