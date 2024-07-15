@@ -1,7 +1,11 @@
-export default async function page() {
+import Navigation from '@/components/Navigation';
+
+export default function page() {
   return (
     <>
-      <nav></nav>
+      <nav>
+        <Navigation />
+      </nav>
       <main>Main content</main>
       <footer>Footer</footer>
     </>
