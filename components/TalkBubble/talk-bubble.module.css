@@ -1,0 +1,18 @@
+.talkbubble {
+  width: 78px;
+  height: 32px;
+  background: white;
+  position: relative;
+  border-radius: 10px;
+}
+.talkbubble:before {
+  content: "";
+  position: absolute;
+  right: calc(50% - 10px);
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+}

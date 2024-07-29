@@ -13,6 +13,7 @@ const config: Config = {
         'black-50': '#808080',
         'black-60': '#666666',
         'black-80': '#333333',
+        primary: '#D1964C',
         secondary: '#5C594D',
         khaki: '#332F21',
         'khaki-60': '#85827a',
@@ -36,7 +37,7 @@ const config: Config = {
         base: '0.9375rem', // 15px
         lg: '1.175rem', // 18px
         xl: '1.375rem', // 22px
-        '2xl': '2.25rem', // 36px
+        '2xl': '1.75rem', // 28px
         '3xl': '2.375rem', // 38px
         black: '#000000',
         'black-50': '#808080',
