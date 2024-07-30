@@ -1,4 +1,4 @@
-import Logo from './Logo';
+import Logo from '../Logo';
 import UserProfile from './UserProfile';
 import MenuItems from './MenuItems';
 import {MenuItem} from './types';
