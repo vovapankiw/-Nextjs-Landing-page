@@ -1,4 +1,3 @@
-import SearchField from '../SearchField';
 import AdvantageInfo from './AdvantageInfo';
 import Advantages from './Advantages';
 
