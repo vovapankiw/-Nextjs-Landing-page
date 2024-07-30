@@ -1,6 +1,7 @@
 import AdvantageBlock from '@/components/AdvantageBlock';
 import CardList from '@/components/CardList';
 import HeroBlock from '@/components/HeroBlock';
+import IdeasBlock from '@/components/IdeasBlock';
 import Navigation from '@/components/Navigation';
 import PostList from '@/components/PostList';
 import Section from '@/components/Section';
@@ -20,6 +21,7 @@ export default function page() {
           <PostList />
         </Section>
         <AdvantageBlock />
+        <IdeasBlock />
       </main>
       <footer>Footer</footer>
     </>

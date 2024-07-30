@@ -39,25 +39,6 @@ const config: Config = {
         xl: '1.375rem', // 22px
         '2xl': '1.75rem', // 28px
         '3xl': '2.375rem', // 38px
-        black: '#000000',
-        'black-50': '#808080',
-        'black-60': '#666666',
-        'black-80': '#333333',
-        secondary: '#5C594D',
-        khaki: '#332F21',
-        'khaki-60': '#85827a',
-        'khaki-80': '#5c594d',
-        stepovyi: '#edebde',
-        'stepovyi-70': '#f2f1e8',
-        white: '#ffffff',
-        'white-50': '#999790',
-        'white-60': '#adaca6',
-        'white-80': '#d6d5d3',
-        'white-20': '#fbfbf8',
-        yellow: '#F9D849',
-        'navy-blue': '#123A69',
-        'grass-green': '#0F6647',
-        sand: '#EFDBB2',
       },
       container: {
         center: true,
