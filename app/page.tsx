@@ -1,7 +1,9 @@
-import Card from '@/components/Card';
+import AdvantageBlock from '@/components/AdvantageBlock';
+import CardList from '@/components/CardList';
 import HeroBlock from '@/components/HeroBlock';
 import Navigation from '@/components/Navigation';
-import ArrowLeftIcon from '@/icons/ArrowLeftIcon';
+import PostList from '@/components/PostList';
+import Section from '@/components/Section';
 
 export default function page() {
   return (
@@ -11,23 +13,13 @@ export default function page() {
       </nav>
       <main>
         <HeroBlock />
-        <div className="mx-2 mt-12 xl:mx-52">
-          <div className="mb-10 flex items-center justify-between">
-            <h2 className="text-2xl font-extrabold">Featured property list</h2>
-            <div className="flex items-center text-base font-extrabold text-primary">
-              <span>View all 19</span>
-              <ArrowLeftIcon className="fill-primary" />
-            </div>
-          </div>
-          <div className="flex flex-wrap gap-6">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-          </div>
-        </div>
+        <Section title="Featured property list" quantity={19}>
+          <CardList />
+        </Section>
+        <Section title="Featured news" quantity={11}>
+          <PostList />
+        </Section>
+        <AdvantageBlock />
       </main>
       <footer>Footer</footer>
     </>
